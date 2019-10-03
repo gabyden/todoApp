@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500&display=swap');
+.App {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+}
+.toDo__contenedor{
+  position: relative;
+  margin:10px auto;
+  text-align: center;
+}
+.isChecked{
+  text-decoration:line-through;
+  color: #b1b1b1;
+}
+.notChecked{
+  text-decoration:none;
+}
+.AddToDo--container{
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.AddToDo--form{
+  font-size:14px;
+  outline:none;
+  display: flex;
+  justify-content: space-around;
+}
+.AddToDo--form input{
+border:1px solid #eaeaea;
+padding:10px 20px;
+outline:none;
+}
+.AddToDo--form button{
+  border-radius: 3px;
+  outline: none;
+  padding: 11px 30px;
+  background: #87e887;
+  font-family: "Montserrat",sans-serif;
+  font-weight: bold;
+  border: none;
+  color: white;
+}
+.toDo__remove{
+  font-size: 9px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #777777;
+  cursor: pointer;
+  margin: 10px;
+  background:#ececec;
+  padding: 4px 10px;
+  width: 100px;
+  border-radius: 5px;
+  margin: 5px auto;
+}
